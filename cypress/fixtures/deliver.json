@@ -2,7 +2,7 @@
   "signup": {
     "name": "Leon",
     "cpf": "04864870322",
-    "email": "deliver.teste@gmail.com",
+    "email": "leon.deliver@gmail.com",
     "whatsapp": "(88) 3839-6986",
     "address": {
       "postalcode": "63021-240",
@@ -19,7 +19,7 @@
   "cpf_inv": {
     "name": "Ashley",
     "cpf": "04864870322AA",
-    "email": "deliver.teste@gmail.com",
+    "email": "ashley.deliver@gmail.com",
     "whatsapp": "(88) 3839-6986",
     "address": {
       "postalcode": "63021-240",
@@ -30,6 +30,23 @@
       "city_state": "Juazeiro do Norte/CE"
     },
     "deliver_method": "Moto",
+    "cnh": "cnh-digital.jpg"
+  },
+
+  "email_inv": {
+    "name": "Ada",
+    "cpf": "04864870322",
+    "email": "ada.com.br",
+    "whatsapp": "(88) 3839-6986",
+    "address": {
+      "postalcode": "63021-240",
+      "street": "Rua Antônio Eliomar Félix",
+      "number": "639",
+      "details": "Apt 142",
+      "district": "Aeroporto",
+      "city_state": "Juazeiro do Norte/CE"
+    },
+    "deliver_method": "Van/Carro",
     "cnh": "cnh-digital.jpg"
   }
 }
