@@ -1,6 +1,7 @@
-import { SignupPage } from '../pages/SignupPage'
+import signup from '../pages/SignupPage'
 
 describe('Cadastro', () => {
+
   it('Usuário deve se tornar um entregador', () => {
     var deliver = {
       name: 'John Doe',
@@ -19,7 +20,6 @@ describe('Cadastro', () => {
       cnh: 'cnh-digital.jpg'
     }
     const expectedMessageSwal = 'Recebemos os seus dados. Fique de olho na sua caixa de email, pois e em breve retornamos o contato.'
-    var signup = new SignupPage()
 
     signup.go();
     signup.fillForm(deliver);
@@ -44,8 +44,6 @@ describe('Cadastro', () => {
       deliver_method: 'Moto',
       cnh: 'cnh-digital.jpg'
     }
-
-    var signup = new SignupPage();
 
     signup.go();
     signup.fillForm(deliver);
